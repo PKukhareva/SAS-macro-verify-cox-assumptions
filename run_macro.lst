@@ -1,0 +1,870 @@
+                                                                    Model 1: modeling CV_time*CV_event(0)                                                                     1
+
+                                                                              The PHREG Procedure
+
+                                                                               Model Information
+
+                                          Data Set                 RQ.SIMCOX                                                         
+                                          Dependent Variable       CV_time       Time from baseline until cardiovascular event occurs
+                                          Censoring Variable       CV_event      Cardiovascular event occurrence                     
+                                          Censoring Value(s)       0                                                                 
+                                          Ties Handling            EXACT                                                             
+
+
+                                                                    Number of Observations Read        2975
+                                                                    Number of Observations Used        2756
+
+
+                                                                            Class Level Information
+ 
+                                                                                                  Design
+                                                                      Class         Value       Variables
+
+                                                                      treatment     0            0       
+                                                                                    1            1       
+
+                                                                      activity      average      0      0
+                                                                                    high         1      0
+                                                                                    low          0      1
+
+
+                                                              Summary of the Number of Event and Censored Values
+ 
+                                                                                                      Percent
+                                                                    Total       Event    Censored    Censored
+
+                                                                     2756         746        2010       72.93
+
+
+                                                                              Convergence Status
+
+                                                                Convergence criterion (GCONV=1E-8) satisfied.          
+
+
+                                                                             Model Fit Statistics
+ 
+                                                                                     Without           With
+                                                                    Criterion     Covariates     Covariates
+
+                                                                    -2 LOG L       11511.830      11331.082
+                                                                    AIC            11511.830      11339.082
+                                                                    SBC            11511.830      11357.541
+
+
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 1: modeling CV_time*CV_event(0)                                                                     2
+
+                                                                              The PHREG Procedure
+
+                                                                    Testing Global Null Hypothesis: BETA=0
+ 
+                                                            Test                 Chi-Square       DF     Pr > ChiSq
+
+                                                            Likelihood Ratio       180.7475        4         <.0001
+                                                            Score                  180.6858        4         <.0001
+                                                            Wald                   173.5652        4         <.0001
+
+
+                                                                                 Type 3 Tests
+ 
+                                                                                            Wald
+                                                                 Effect         DF    Chi-Square    Pr > ChiSq
+
+                                                                 age             1       38.8133        <.0001
+                                                                 treatment       1       22.1156        <.0001
+                                                                 activity        2      118.9131        <.0001
+
+
+                                                                   Analysis of Maximum Likelihood Estimates
+ 
+                                         Parameter      Standard                                  Hazard      95% Hazard Ratio
+             Parameter            DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits     Label
+
+             age                   1       0.04547       0.00730       38.8133        <.0001       1.047       1.032       1.062    Age in years                 
+             treatment 1           1       0.34877       0.07416       22.1156        <.0001       1.417       1.226       1.639    Treatment 1                  
+             activity  high        1      -0.55418       0.10490       27.9072        <.0001       0.575       0.468       0.706    Physical activity alevel high
+             activity  low         1       0.48517       0.08382       33.5018        <.0001       1.624       1.378       1.915    Physical activity alevel low 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 2: modeling CV_time*CV_event(0)                                                                     1
+
+                                                                              The PHREG Procedure
+
+                                                                               Model Information
+
+                                          Data Set                 RQ.SIMCOX                                                         
+                                          Dependent Variable       CV_time       Time from baseline until cardiovascular event occurs
+                                          Censoring Variable       CV_event      Cardiovascular event occurrence                     
+                                          Censoring Value(s)       0                                                                 
+                                          Ties Handling            EXACT                                                             
+
+
+                                                                    Number of Observations Read        2975
+                                                                    Number of Observations Used        2627
+
+
+                                                                            Class Level Information
+ 
+                                                                                                  Design
+                                                                      Class         Value       Variables
+
+                                                                      diabetes      0            0       
+                                                                                    1            1       
+
+                                                                      smoking       0            0       
+                                                                                    1            1       
+
+                                                                      sex           0            0       
+                                                                                    1            1       
+
+                                                                      treatment     0            0       
+                                                                                    1            1       
+
+                                                                      activity      average      0      0
+                                                                                    high         1      0
+                                                                                    low          0      1
+
+
+                                                              Summary of the Number of Event and Censored Values
+ 
+                                                                                                      Percent
+                                                                    Total       Event    Censored    Censored
+
+                                                                     2627         713        1914       72.86
+
+
+                                                                              Convergence Status
+
+                                                                Convergence criterion (GCONV=1E-8) satisfied.          
+
+
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 2: modeling CV_time*CV_event(0)                                                                     2
+
+                                                                              The PHREG Procedure
+
+                                                                             Model Fit Statistics
+ 
+                                                                                     Without           With
+                                                                    Criterion     Covariates     Covariates
+
+                                                                    -2 LOG L       10931.915      10569.605
+                                                                    AIC            10931.915      10591.605
+                                                                    SBC            10931.915      10641.870
+
+
+                                                                    Testing Global Null Hypothesis: BETA=0
+ 
+                                                            Test                 Chi-Square       DF     Pr > ChiSq
+
+                                                            Likelihood Ratio       362.3100       11         <.0001
+                                                            Score                  364.7934       11         <.0001
+                                                            Wald                   356.4410       11         <.0001
+
+
+                                                                                 Type 3 Tests
+ 
+                                                                                             Wald
+                                                               Effect            DF    Chi-Square    Pr > ChiSq
+
+                                                               age                1       39.7075        <.0001
+                                                               systolic_bp        1       89.4168        <.0001
+                                                               diastolic_bp       1       57.3128        <.0001
+                                                               ldl                1        5.9140        0.0150
+                                                               bmi                1        2.3316        0.1268
+                                                               diabetes           1        8.9589        0.0028
+                                                               smoking            1       17.3689        <.0001
+                                                               sex                1        9.8157        0.0017
+                                                               treatment          1       26.4317        <.0001
+                                                               activity           2      125.6280        <.0001
+
+
+                                                                   Analysis of Maximum Likelihood Estimates
+ 
+                                         Parameter      Standard                                  Hazard      95% Hazard Ratio
+          Parameter               DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits     Label
+
+          age                      1       0.04718       0.00749       39.7075        <.0001       1.048       1.033       1.064    Age in years                    
+          systolic_bp              1       0.03602       0.00381       89.4168        <.0001       1.037       1.029       1.044    Systolic blood pressure in mmHg 
+          diastolic_bp             1       0.02893       0.00382       57.3128        <.0001       1.029       1.022       1.037    Diastolic blood pressure in mmHg
+          ldl                      1       0.01908       0.00785        5.9140        0.0150       1.019       1.004       1.035    Low-density lipoprotein in mg/dL
+          bmi                      1       0.01953       0.01279        2.3316        0.1268       1.020       0.994       1.046    Body mass index                 
+          diabetes     1           1       0.36109       0.12064        8.9589        0.0028       1.435       1.133       1.818    Diabetes mellitus 1             
+          smoking      1           1       0.44416       0.10658       17.3689        <.0001       1.559       1.265       1.921    Smoking status 1                
+          sex          1           1       0.23600       0.07533        9.8157        0.0017       1.266       1.092       1.468    Gender 1                        
+          treatment    1           1       0.39097       0.07605       26.4317        <.0001       1.478       1.274       1.716    Treatment 1                     
+          activity     high        1      -0.58010       0.10821       28.7367        <.0001       0.560       0.453       0.692    Physical activity alevel high   
+          activity     low         1       0.52055       0.08597       36.6660        <.0001       1.683       1.422       1.992    Physical activity alevel low    
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 3: modeling CV_time*CV_event(0)                                                                     1
+
+                                                                              The PHREG Procedure
+
+                                                                               Model Information
+
+                                          Data Set                 RQ.SIMCOX                                                         
+                                          Dependent Variable       CV_time       Time from baseline until cardiovascular event occurs
+                                          Censoring Variable       CV_event      Cardiovascular event occurrence                     
+                                          Censoring Value(s)       0                                                                 
+                                          Ties Handling            EXACT                                                             
+
+
+                                                                    Number of Observations Read        2975
+                                                                    Number of Observations Used        2627
+
+
+                                                                            Class Level Information
+ 
+                                                                                                  Design
+                                                                      Class         Value       Variables
+
+                                                                      diabetes      0            0       
+                                                                                    1            1       
+
+                                                                      smoking       0            0       
+                                                                                    1            1       
+
+                                                                      treatment     0            0       
+                                                                                    1            1       
+
+                                                                      activity      average      0      0
+                                                                                    high         1      0
+                                                                                    low          0      1
+
+
+                                                              Summary of the Number of Event and Censored Values
+ 
+                                                                                                      Percent
+                                                                    Total       Event    Censored    Censored
+
+                                                                     2627         713        1914       72.86
+
+
+                                                                              Convergence Status
+
+                                                                Convergence criterion (GCONV=1E-8) satisfied.          
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 3: modeling CV_time*CV_event(0)                                                                     2
+
+                                                                              The PHREG Procedure
+
+                                                                             Model Fit Statistics
+ 
+                                                                                     Without           With
+                                                                    Criterion     Covariates     Covariates
+
+                                                                    -2 LOG L       10931.915      10579.445
+                                                                    AIC            10931.915      10599.445
+                                                                    SBC            10931.915      10645.140
+
+
+                                                                    Testing Global Null Hypothesis: BETA=0
+ 
+                                                            Test                 Chi-Square       DF     Pr > ChiSq
+
+                                                            Likelihood Ratio       352.4701       10         <.0001
+                                                            Score                  354.3079       10         <.0001
+                                                            Wald                   345.0885       10         <.0001
+
+
+                                                                                 Type 3 Tests
+ 
+                                                                                             Wald
+                                                               Effect            DF    Chi-Square    Pr > ChiSq
+
+                                                               age                1       38.2951        <.0001
+                                                               systolic_bp        1       90.5174        <.0001
+                                                               diastolic_bp       1       57.6603        <.0001
+                                                               ldl                1        6.3663        0.0116
+                                                               bmi                1        2.1911        0.1388
+                                                               diabetes           1        8.0873        0.0045
+                                                               smoking            1       17.5312        <.0001
+                                                               treatment          1       26.3932        <.0001
+                                                               activity           2      123.3126        <.0001
+
+
+                                                                   Analysis of Maximum Likelihood Estimates
+ 
+                                         Parameter      Standard                                  Hazard      95% Hazard Ratio
+          Parameter               DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits     Label
+
+          age                      1       0.04616       0.00746       38.2951        <.0001       1.047       1.032       1.063    Age in years                    
+          systolic_bp              1       0.03624       0.00381       90.5174        <.0001       1.037       1.029       1.045    Systolic blood pressure in mmHg 
+          diastolic_bp             1       0.02902       0.00382       57.6603        <.0001       1.029       1.022       1.037    Diastolic blood pressure in mmHg
+          ldl                      1       0.01981       0.00785        6.3663        0.0116       1.020       1.004       1.036    Low-density lipoprotein in mg/dL
+          bmi                      1       0.01892       0.01278        2.1911        0.1388       1.019       0.994       1.045    Body mass index                 
+          diabetes     1           1       0.34240       0.12040        8.0873        0.0045       1.408       1.112       1.783    Diabetes mellitus 1             
+          smoking      1           1       0.44626       0.10658       17.5312        <.0001       1.562       1.268       1.925    Smoking status 1                
+          treatment    1           1       0.39072       0.07605       26.3932        <.0001       1.478       1.273       1.716    Treatment 1                     
+          activity     high        1      -0.57634       0.10817       28.3867        <.0001       0.562       0.455       0.695    Physical activity alevel high   
+          activity     low         1       0.51396       0.08591       35.7940        <.0001       1.672       1.413       1.978    Physical activity alevel low    
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 4: modeling CV_time*CV_event(0)                                                                     1
+
+                                                                              The PHREG Procedure
+
+                                                                               Model Information
+
+                                          Data Set                 RQ.SIMCOX                                                         
+                                          Dependent Variable       CV_time       Time from baseline until cardiovascular event occurs
+                                          Censoring Variable       CV_event      Cardiovascular event occurrence                     
+                                          Censoring Value(s)       0                                                                 
+                                          Ties Handling            EXACT                                                             
+
+
+                                                                    Number of Observations Read        2975
+                                                                    Number of Observations Used        2627
+
+
+                                                                            Class Level Information
+ 
+                                                                                                  Design
+                                                                      Class         Value       Variables
+
+                                                                      diabetes      0            0       
+                                                                                    1            1       
+
+                                                                      smoking       0            0       
+                                                                                    1            1       
+
+                                                                      sex           0            0       
+                                                                                    1            1       
+
+                                                                      treatment     0            0       
+                                                                                    1            1       
+
+                                                                      activity      average      0      0
+                                                                                    high         1      0
+                                                                                    low          0      1
+
+
+                                                              Summary of the Number of Event and Censored Values
+ 
+                                                                                                      Percent
+                                                                    Total       Event    Censored    Censored
+
+                                                                     2627         713        1914       72.86
+
+
+                                                                              Convergence Status
+
+                                                                Convergence criterion (GCONV=1E-8) satisfied.          
+
+
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 4: modeling CV_time*CV_event(0)                                                                     2
+
+                                                                              The PHREG Procedure
+
+                                                                             Model Fit Statistics
+ 
+                                                                                     Without           With
+                                                                    Criterion     Covariates     Covariates
+
+                                                                    -2 LOG L       10931.915      10569.605
+                                                                    AIC            10931.915      10591.605
+                                                                    SBC            10931.915      10641.870
+
+
+                                                                    Testing Global Null Hypothesis: BETA=0
+ 
+                                                            Test                 Chi-Square       DF     Pr > ChiSq
+
+                                                            Likelihood Ratio       362.3100       11         <.0001
+                                                            Score                  364.7934       11         <.0001
+                                                            Wald                   356.4410       11         <.0001
+
+
+                                                                                 Type 3 Tests
+ 
+                                                                                             Wald
+                                                               Effect            DF    Chi-Square    Pr > ChiSq
+
+                                                               age                1       39.7075        <.0001
+                                                               systolic_bp        1       89.4168        <.0001
+                                                               diastolic_bp       1       57.3128        <.0001
+                                                               ldl                1        5.9140        0.0150
+                                                               bmi                1        2.3316        0.1268
+                                                               diabetes           1        8.9589        0.0028
+                                                               smoking            1       17.3689        <.0001
+                                                               sex                1        9.8157        0.0017
+                                                               treatment          1       26.4317        <.0001
+                                                               activity           2      125.6280        <.0001
+
+
+                                                                   Analysis of Maximum Likelihood Estimates
+ 
+                                         Parameter      Standard                                  Hazard      95% Hazard Ratio
+          Parameter               DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits     Label
+
+          age                      1       0.04718       0.00749       39.7075        <.0001       1.048       1.033       1.064    Age in years                    
+          systolic_bp              1       0.03602       0.00381       89.4168        <.0001       1.037       1.029       1.044    Systolic blood pressure in mmHg 
+          diastolic_bp             1       0.02893       0.00382       57.3128        <.0001       1.029       1.022       1.037    Diastolic blood pressure in mmHg
+          ldl                      1       0.01908       0.00785        5.9140        0.0150       1.019       1.004       1.035    Low-density lipoprotein in mg/dL
+          bmi                      1       0.01953       0.01279        2.3316        0.1268       1.020       0.994       1.046    Body mass index                 
+          diabetes     1           1       0.36109       0.12064        8.9589        0.0028       1.435       1.133       1.818    Diabetes mellitus 1             
+          smoking      1           1       0.44416       0.10658       17.3689        <.0001       1.559       1.265       1.921    Smoking status 1                
+          sex          1           1       0.23600       0.07533        9.8157        0.0017       1.266       1.092       1.468    Gender 1                        
+          treatment    1           1       0.39097       0.07605       26.4317        <.0001       1.478       1.274       1.716    Treatment 1                     
+          activity     high        1      -0.58010       0.10821       28.7367        <.0001       0.560       0.453       0.692    Physical activity alevel high   
+          activity     low         1       0.52055       0.08597       36.6660        <.0001       1.683       1.422       1.992    Physical activity alevel low    
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 5: modeling CV_time*CV_event(0)                                                                     1
+
+                                                                              The PHREG Procedure
+
+                                                                               Model Information
+
+                                          Data Set                 RQ.SIMCOX                                                         
+                                          Dependent Variable       CV_time       Time from baseline until cardiovascular event occurs
+                                          Censoring Variable       CV_event      Cardiovascular event occurrence                     
+                                          Censoring Value(s)       0                                                                 
+                                          Ties Handling            EXACT                                                             
+
+
+                                                                    Number of Observations Read        2975
+                                                                    Number of Observations Used        2884
+
+
+                                                              Summary of the Number of Event and Censored Values
+ 
+                                                                                                      Percent
+                                                                    Total       Event    Censored    Censored
+
+                                                                     2884         787        2097       72.71
+
+
+                                                                              Convergence Status
+
+                                                                Convergence criterion (GCONV=1E-8) satisfied.          
+
+
+                                                                             Model Fit Statistics
+ 
+                                                                                     Without           With
+                                                                    Criterion     Covariates     Covariates
+
+                                                                    -2 LOG L       12213.744      12084.470
+                                                                    AIC            12213.744      12088.470
+                                                                    SBC            12213.744      12097.807
+
+
+                                                                    Testing Global Null Hypothesis: BETA=0
+ 
+                                                            Test                 Chi-Square       DF     Pr > ChiSq
+
+                                                            Likelihood Ratio       129.2735        2         <.0001
+                                                            Score                  129.9394        2         <.0001
+                                                            Wald                   129.4462        2         <.0001
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 5: modeling CV_time*CV_event(0)                                                                     2
+
+                                                                              The PHREG Procedure
+
+                                                                   Analysis of Maximum Likelihood Estimates
+ 
+                                     Parameter      Standard                                  Hazard      95% Hazard Ratio
+               Parameter      DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits     Label
+
+               age             1       0.04821       0.00710       46.0786        <.0001       1.049       1.035       1.064    Age in years                   
+               systolic_bp     1       0.03378       0.00359       88.6210        <.0001       1.034       1.027       1.042    Systolic blood pressure in mmHg
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 6: modeling CV_time*CV_event(0)                                                                     1
+
+                                                                              The PHREG Procedure
+
+                                                                               Model Information
+
+                                          Data Set                 RQ.SIMCOX                                                         
+                                          Dependent Variable       CV_time       Time from baseline until cardiovascular event occurs
+                                          Censoring Variable       CV_event      Cardiovascular event occurrence                     
+                                          Censoring Value(s)       0                                                                 
+                                          Ties Handling            EXACT                                                             
+
+
+                                                                    Number of Observations Read        2975
+                                                                    Number of Observations Used        2627
+
+
+                                                                            Class Level Information
+ 
+                                                                                                  Design
+                                                                      Class         Value       Variables
+
+                                                                      diabetes      0            0       
+                                                                                    1            1       
+
+                                                                      smoking       0            0       
+                                                                                    1            1       
+
+                                                                      sex           0            0       
+                                                                                    1            1       
+
+                                                                      treatment     0            0       
+                                                                                    1            1       
+
+                                                                      activity      average      0      0
+                                                                                    high         1      0
+                                                                                    low          0      1
+
+
+                                                              Summary of the Number of Event and Censored Values
+ 
+                                                                                                      Percent
+                                                                    Total       Event    Censored    Censored
+
+                                                                     2627         713        1914       72.86
+
+
+                                                                              Convergence Status
+
+                                                                Convergence criterion (GCONV=1E-8) satisfied.          
+
+
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 6: modeling CV_time*CV_event(0)                                                                     2
+
+                                                                              The PHREG Procedure
+
+                                                                             Model Fit Statistics
+ 
+                                                                                     Without           With
+                                                                    Criterion     Covariates     Covariates
+
+                                                                    -2 LOG L       10931.915      10569.605
+                                                                    AIC            10931.915      10591.605
+                                                                    SBC            10931.915      10641.870
+
+
+                                                                    Testing Global Null Hypothesis: BETA=0
+ 
+                                                            Test                 Chi-Square       DF     Pr > ChiSq
+
+                                                            Likelihood Ratio       362.3100       11         <.0001
+                                                            Score                  364.7934       11         <.0001
+                                                            Wald                   356.4410       11         <.0001
+
+
+                                                                                 Type 3 Tests
+ 
+                                                                                             Wald
+                                                               Effect            DF    Chi-Square    Pr > ChiSq
+
+                                                               age                1       39.7075        <.0001
+                                                               systolic_bp        1       89.4168        <.0001
+                                                               diastolic_bp       1       57.3128        <.0001
+                                                               ldl                1        5.9140        0.0150
+                                                               bmi                1        2.3316        0.1268
+                                                               diabetes           1        8.9589        0.0028
+                                                               smoking            1       17.3689        <.0001
+                                                               sex                1        9.8157        0.0017
+                                                               treatment          1       26.4317        <.0001
+                                                               activity           2      125.6280        <.0001
+
+
+                                                                   Analysis of Maximum Likelihood Estimates
+ 
+                                         Parameter      Standard                                  Hazard      95% Hazard Ratio
+          Parameter               DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits     Label
+
+          age                      1       0.04718       0.00749       39.7075        <.0001       1.048       1.033       1.064    Age in years                    
+          systolic_bp              1       0.03602       0.00381       89.4168        <.0001       1.037       1.029       1.044    Systolic blood pressure in mmHg 
+          diastolic_bp             1       0.02893       0.00382       57.3128        <.0001       1.029       1.022       1.037    Diastolic blood pressure in mmHg
+          ldl                      1       0.01908       0.00785        5.9140        0.0150       1.019       1.004       1.035    Low-density lipoprotein in mg/dL
+          bmi                      1       0.01953       0.01279        2.3316        0.1268       1.020       0.994       1.046    Body mass index                 
+          diabetes     1           1       0.36109       0.12064        8.9589        0.0028       1.435       1.133       1.818    Diabetes mellitus 1             
+          smoking      1           1       0.44416       0.10658       17.3689        <.0001       1.559       1.265       1.921    Smoking status 1                
+          sex          1           1       0.23600       0.07533        9.8157        0.0017       1.266       1.092       1.468    Gender 1                        
+          treatment    1           1       0.39097       0.07605       26.4317        <.0001       1.478       1.274       1.716    Treatment 1                     
+          activity     high        1      -0.58010       0.10821       28.7367        <.0001       0.560       0.453       0.692    Physical activity alevel high   
+          activity     low         1       0.52055       0.08597       36.6660        <.0001       1.683       1.422       1.992    Physical activity alevel low    
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 7: modeling CV_time*CV_event(0)                                                                     1
+
+                                                                              The PHREG Procedure
+
+                                                                               Model Information
+
+                                          Data Set                 RQ.SIMCOX                                                         
+                                          Dependent Variable       CV_time       Time from baseline until cardiovascular event occurs
+                                          Censoring Variable       CV_event      Cardiovascular event occurrence                     
+                                          Censoring Value(s)       0                                                                 
+                                          Ties Handling            EXACT                                                             
+
+
+                                                                    Number of Observations Read        2975
+                                                                    Number of Observations Used        2756
+
+
+                                                              Summary of the Number of Event and Censored Values
+ 
+                                                                                                      Percent
+                                                                    Total       Event    Censored    Censored
+
+                                                                     2756         746        2010       72.93
+
+
+                                                                              Convergence Status
+
+                                                                Convergence criterion (GCONV=1E-8) satisfied.          
+
+
+                                                                             Model Fit Statistics
+ 
+                                                                                     Without           With
+                                                                    Criterion     Covariates     Covariates
+
+                                                                    -2 LOG L       11511.830      11476.330
+                                                                    AIC            11511.830      11478.330
+                                                                    SBC            11511.830      11482.945
+
+
+                                                                    Testing Global Null Hypothesis: BETA=0
+ 
+                                                            Test                 Chi-Square       DF     Pr > ChiSq
+
+                                                            Likelihood Ratio        35.4994        1         <.0001
+                                                            Score                   35.4737        1         <.0001
+                                                            Wald                    35.4050        1         <.0001
+
+
+                                                                   Analysis of Maximum Likelihood Estimates
+ 
+                                              Parameter      Standard                                  Hazard      95% Hazard Ratio
+                          Parameter    DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits     Label
+
+                          age           1       0.04306       0.00724       35.4050        <.0001       1.044       1.029       1.059    Age in years
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 8: modeling CV_time*CV_event(0)                                                                     1
+
+                                                                              The PHREG Procedure
+
+                                                                               Model Information
+
+                                          Data Set                 RQ.SIMCOX                                                         
+                                          Dependent Variable       CV_time       Time from baseline until cardiovascular event occurs
+                                          Censoring Variable       CV_event      Cardiovascular event occurrence                     
+                                          Censoring Value(s)       0                                                                 
+                                          Ties Handling            EXACT                                                             
+
+
+                                                                    Number of Observations Read        2975
+                                                                    Number of Observations Used        2786
+
+
+                                                                           Class Level Information
+ 
+                                                                                                Design
+                                                                       Class        Value     Variables
+
+                                                                       diabetes     0                 0
+                                                                                    1                 1
+
+
+                                                              Summary of the Number of Event and Censored Values
+ 
+                                                                                                      Percent
+                                                                    Total       Event    Censored    Censored
+
+                                                                     2786         751        2035       73.04
+
+
+                                                                              Convergence Status
+
+                                                                Convergence criterion (GCONV=1E-8) satisfied.          
+
+
+                                                                             Model Fit Statistics
+ 
+                                                                                     Without           With
+                                                                    Criterion     Covariates     Covariates
+
+                                                                    -2 LOG L       11605.942      11603.546
+                                                                    AIC            11605.942      11605.546
+                                                                    SBC            11605.942      11610.168
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
+                                                                    Model 8: modeling CV_time*CV_event(0)                                                                     2
+
+                                                                              The PHREG Procedure
+
+                                                                    Testing Global Null Hypothesis: BETA=0
+ 
+                                                            Test                 Chi-Square       DF     Pr > ChiSq
+
+                                                            Likelihood Ratio         2.3955        1         0.1217
+                                                            Score                    2.5201        1         0.1124
+                                                            Wald                     2.5152        1         0.1128
+
+
+                                                                                 Type 3 Tests
+ 
+                                                                                           Wald
+                                                                 Effect        DF    Chi-Square    Pr > ChiSq
+
+                                                                 diabetes       1        2.5152        0.1128
+
+
+                                                                   Analysis of Maximum Likelihood Estimates
+ 
+                                           Parameter      Standard                                  Hazard      95% Hazard Ratio
+                     Parameter      DF      Estimate         Error    Chi-Square    Pr > ChiSq       Ratio      Confidence Limits     Label
+
+                     diabetes  1     1       0.18458       0.11638        2.5152        0.1128       1.203       0.957       1.511    Diabetes mellitus 1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                           08MAY13, 11:17 -- produced by macro check_cox_assumptions
